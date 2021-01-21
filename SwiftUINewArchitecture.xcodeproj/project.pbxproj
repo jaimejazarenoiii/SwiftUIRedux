@@ -23,6 +23,7 @@
 		B366845025B91D79009C9F72 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366844F25B91D79009C9F72 /* AppReducer.swift */; };
 		B366845925B91DE5009C9F72 /* TaskAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366845825B91DE5009C9F72 /* TaskAction.swift */; };
 		B366845D25B91EFB009C9F72 /* ProjectAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366845C25B91EFB009C9F72 /* ProjectAction.swift */; };
+		B366846025B91F93009C9F72 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B366845F25B91F93009C9F72 /* AppAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		B366844F25B91D79009C9F72 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		B366845825B91DE5009C9F72 /* TaskAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAction.swift; sourceTree = "<group>"; };
 		B366845C25B91EFB009C9F72 /* ProjectAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAction.swift; sourceTree = "<group>"; };
+		B366845F25B91F93009C9F72 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +111,9 @@
 			children = (
 				B366844325B9177E009C9F72 /* Task */,
 				B366844225B91778009C9F72 /* Project */,
-				B366844525B91826009C9F72 /* AppState.swift */,
+				B366845F25B91F93009C9F72 /* AppAction.swift */,
 				B366844F25B91D79009C9F72 /* AppReducer.swift */,
+				B366844525B91826009C9F72 /* AppState.swift */,
 				B366842C25B84F46009C9F72 /* Store.swift */,
 				B366842925B84F1A009C9F72 /* World.swift */,
 			);
@@ -245,6 +248,7 @@
 				B366844925B91D19009C9F72 /* ProjectReducer.swift in Sources */,
 				B366844C25B91D37009C9F72 /* TaskReducer.swift in Sources */,
 				B366845025B91D79009C9F72 /* AppReducer.swift in Sources */,
+				B366846025B91F93009C9F72 /* AppAction.swift in Sources */,
 				B366843F25B9174B009C9F72 /* TaskState.swift in Sources */,
 				B366843125B85177009C9F72 /* Project.swift in Sources */,
 				B366843B25B9173A009C9F72 /* ProjectState.swift in Sources */,
@@ -382,7 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUINewArchitecture/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUINewArchitecture/Info.plist;
+				INFOPLIST_FILE = "SwiftUINewArchitecture/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -403,7 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUINewArchitecture/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUINewArchitecture/Info.plist;
+				INFOPLIST_FILE = "SwiftUINewArchitecture/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
